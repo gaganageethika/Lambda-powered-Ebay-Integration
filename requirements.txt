@@ -1,0 +1,4 @@
+boto3==1.28.78       # For AWS SDK integration
+requests==2.31.0     # For making API calls to eBay
+python-dotenv==1.0.0 # For loading environment variables from .env
+serverless-python-requirements==5.4.0  # To handle Python requirements in Serverless

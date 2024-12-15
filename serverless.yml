@@ -1,0 +1,22 @@
+service: ebay-service
+
+provider:
+  name: aws
+  runtime: python3.9  # Python version your Lambda uses
+  environment:
+    EBAY_OAUTH_TOKEN: ${env:EBAY_OAUTH_TOKEN}  # Set this in your environment variables
+
+functions:
+  ebay_service:
+    handler: ebay_handler.ebay_request_processor
+    events:
+      - http:
+          path: ebay_request_path
+          method: post
+
+plugins:
+  - serverless-python-requirements  # Helps manage Python dependencies
+
+custom:
+  pythonRequirements:
+    dockerizePip: true

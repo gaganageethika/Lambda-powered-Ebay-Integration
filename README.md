@@ -1,4 +1,4 @@
-# Lambda-powered-Ebay-Integration
+# Lambda-powered-eBay-Integration
 
 A Python-based project leveraging AWS Lambda to automate the integration with eBay's Inventory API. This repository contains functionality for managing inventory items and creating offers on the eBay platform programmatically.
 

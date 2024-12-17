@@ -43,8 +43,8 @@ Before using this project, ensure you have the following:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/gaganageethika/ebay-inventory-lambda.git
-cd ebay-inventory-lambda
+git clone https://github.com/gaganageethika/Lambda-powered-eBay-Integration.git
+cd Lambda-powered-eBay-Integration
 ```
 ### 2. Update Environment Variables
 Set your `EBAY_OAUTH_TOKEN` in the AWS Lambda environment settings.
@@ -94,6 +94,6 @@ This project is licensed under the MIT License. See LICENSE for more details.
 git add .
 git commit -m "Initial commit: eBay Lambda integration"
 git branch -M main
-git remote add origin https://github.com/yourusername/ebay-inventory-lambda.git
+git remote add origin https://github.com/gaganageethika/Lambda-powered-eBay-Integration.git
 git push -u origin main
 ```

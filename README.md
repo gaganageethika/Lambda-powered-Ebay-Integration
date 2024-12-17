@@ -64,7 +64,6 @@ Upload lambda_function.zip to your Lambda function.
 Send an event payload in the following format to the Lambda function:
 
 ```json
-Copy code
 {
   "body": "{\"itemDetails\": {\"sku\": \"item123\", \"details\": \"...\"}, \"offerDetails\": {\"price\": \"10.99\"}}"
 }

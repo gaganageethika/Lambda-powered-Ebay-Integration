@@ -19,7 +19,7 @@ A Python-based project leveraging AWS Lambda to automate the integration with eB
 - **`ebay_handler.py`**: Core Lambda function script handling eBay API requests for inventory and offers.
 - **`requirements.txt`**: Dependencies for the project.
 - **`serverless.yml`**: Serverless Framework Configuration.
-- **`test_evenet.json`**: Sample Test Payload.
+- **`test_event.json`**: Sample Test Payload.
 
 ## Prerequisites
 

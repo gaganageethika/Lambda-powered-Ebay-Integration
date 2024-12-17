@@ -73,10 +73,10 @@ Send an event payload in the following format to the Lambda function:
 - Quickly list items with offers for various marketplaces.
 - Scale serverless integration without maintaining dedicated servers.
 
-##Contributing
+## Contributing
 Contributions are welcome! Feel free to fork the repository, submit issues, or open pull requests.
 
-##License
+## License
 This project is licensed under the MIT License. See LICENSE for more details.
 
 

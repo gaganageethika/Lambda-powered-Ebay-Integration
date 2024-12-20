@@ -68,13 +68,7 @@ Send an event payload in the following format to the Lambda function:
   "body": "{\"itemDetails\": {\"sku\": \"item123\", \"details\": \"...\"}, \"offerDetails\": {\"price\": \"10.99\"}}"
 }
 ```
-## Example Use Case
-- Automate eBay inventory creation for new products.
-- Quickly list items with offers for various marketplaces.
-- Scale serverless integration without maintaining dedicated servers.
 
-## Contributing
-Contributions are welcome! Feel free to fork the repository, submit issues, or open pull requests.
 
 ## License
 This project is licensed under the MIT License. See LICENSE for more details.
